@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dias da semana</title>
+    <style>
+        body{
+            background-color:rgb(118, 224, 210);
+            font: normal helvetica;
+        }
+        input{
+            font-size: 25px;
+        }
+        p{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body> 
+    <h1>Numeros da semana</h1>
+    <p><input type="number" name="numero_dia" size="10px" placeholder="Numero de 1 a 7"><strong id="txt"></strong></p>
+    <input type="button" value="Mostrar" onclick="atribuiDia()">
+    <script>
+        var numDia, dia, txt
+        txt = document.getElementById("txt")
+        function atribuiDia(){
+            var pré
+            numDia = document.getElementsByName("numero_dia")[0].value
+            numDia = Number(numDia)
+            console.log("chegou",numDia)
+            if (numDia == 1){
+                dia = "Domingo"
+                pré = "ao"
+            }else if(numDia == 2){
+                dia = "Segunda-feira"
+                pré = "a"
+            }else if (numDia == 3){
+                dia = "Terça-feira"
+                pré = "a"
+            }else if(numDia == 4){
+                dia = "Quarta-feira"
+                pré = "a"
+            }else if(numDia == 5){
+                dia = "Quinta-feira"
+                pré = "a"
+            }else if(numDia == 6){
+                dia = "Sexta-feira"
+                pré = "a"
+            }else if(numDia == 7){
+                pré = "ao"
+                dia = "Sábado"
+            }else{
+                dia = "nenhum"
+            }
+            if(dia != "nenhum"){
+                document.getElementById("txt").textContent = `  Esse número corresponde ${pré} ${dia}`
+            }else{
+                document.getElementById("txt").textContent = `  Esse número não corresponde a nenhum dia da semana!`
+            }
+            
+        }
+    </script>
+</body>
+</html>
