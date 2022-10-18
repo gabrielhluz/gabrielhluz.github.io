@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="imagens/faviconpolice.ico" type="image/x-icon">
+	<title> Polícia </title>
+	<style>
+		body{
+			background: rgb(82, 78, 78);
+		}
+		table{
+			border-color: black;
+		}
+		h1,hr{
+			margin-top: 90px;
+		}
+		hr{
+			margin-bottom:90px;
+		}
+		h1 , p, h3, td{
+			color: rgb(255, 255, 242);
+			font-family: 'Courier New';
+			text-align: center;
+		}
+		p,td{
+			font-size: 16pt;
+		}
+		tr#recompensas{
+			font-size: small;
+		}
+		.t{
+			width: 300px;
+			height: 300px;
+		}
+		.r{
+			font-size: small;
+			margin-top: 0;
+		}
+		#whatsapp{
+			width: 20px;
+			height: 20px;
+		}
+	</style>
+</head>
+<body>	
+	<h1 id="titulo"> <img src="imagens/p.png" align="left" onclick="escrevePolícia()"> Polícia de Taboão da Serra</h1>
+	<hr>
+	<p>
+		 O grupo chamado de <strong>tagarelas</strong> estão sendo procurados pela polícia por <br> 
+		falarem demais! &#x1f46e; <br> Os participantes do grupo são:  
+	</p>
+		<table align="center" cellspacing="20" border="0px" >
+		<tr id="nomes">
+			<td>
+				Manteguinha
+			</td>
+			<td>
+				Manézinho 
+			</td>
+			<td>
+				tagarela
+			</td>
+			<td>
+				peninha
+			</td>
+		</tr>
+		<tr id="imagens">
+			<td>
+				<img src="imagens/mayte.jpg" id="mt" onclick="escreveManteguinha()">
+			</td>
+			<td>
+				<img src="imagens/enzo.webp"id="mz" onclick="escreveManézinho()">
+			</td>
+			<td>
+				<img src="imagens/duda.webp" alt="duda">
+			</td>
+			<td>
+				<img src="imagens/mãe.jpg" alt="mãe">
+			</td>
+		</tr>
+		<tr id="recompensas">
+			<td class="r"> Recompensa: R$ 29,000 </td>
+			<td class="r"> Recompensa: R$ 26,000 </td>
+			<td class="r"> Recompensa: R$ 27,000 </td>
+			<td class="r"> Recompensa: R$ 31,000 </td>
+		</tr>
+	</table>
+	<h3 align="center"> Para denunciar ligue ou mande uma mensagem para <img id="whatsapp" src="imagens/WhatsApp-icon.png"> 40028922 </h3>
+	<script>
+		var nome
+		var clique = 0
+		console.log(nome)
+		var nomeArmazenado = localStorage.getItem("nome_usuario")
+		if(nomeArmazenado == "" || nomeArmazenado == undefined){
+			nome = window.prompt("Qual o seu nome?")
+			localStorage.setItem("Nome_usuario",nome)
+			window.confirm(`${nome} quer receber notificações da página?`)
+			if (nome != ""){
+				window.alert("Bem vindo " +nome+ ", não esqueça de seguir nossa página!")
+			}
+		}
+		function escreveManteguinha(){
+			window.document.getElementById("titulo").textContent = "Manteguinha"
+		}
+		function escreveManézinho(){
+			window.document.getElementById("titulo").textContent = "Manézinho"
+		}
+		function escrevePolícia(){
+			window.document.getElementById("titulo").textContent = "Polícia de taboão da serra"
+		}
+	</script>
+</body>
+</html>
