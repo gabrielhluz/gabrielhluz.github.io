@@ -1,0 +1,37 @@
+html{
+    background-color: #030336;
+    color: #ffffff;
+    font-family: sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+nav{
+    display: flex;
+    justify-content:end;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    margin-right: 30px;
+}
+#foto{
+    text-align: center;
+}
+header img{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(6, 64, 97);
+}
+h1{
+    font-size: 35px;
+    color: rgb(6, 64, 97);
+}
+
+footer a{
+    margin-left: -20px;
+}
+footer nav{
+    margin-right: -25px;
+}
