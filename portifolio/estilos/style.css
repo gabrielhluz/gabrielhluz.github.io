@@ -8,14 +8,19 @@ html{
 nav{
     display: flex;
     justify-content:end;
+    margin-right: -25px;
 }
 a{
     text-decoration: none;
     color: #ffffff;
     font-size: 25px;
     margin-right: 30px;
+    margin-left: -20px;
 }
-#foto{
+a:hover{
+    color: #858585;
+}
+div#foto{
     text-align: center;
 }
 header img{
@@ -27,11 +32,4 @@ header img{
 h1{
     font-size: 35px;
     color: rgb(6, 64, 97);
-}
-
-footer a{
-    margin-left: -20px;
-}
-footer nav{
-    margin-right: -25px;
 }
