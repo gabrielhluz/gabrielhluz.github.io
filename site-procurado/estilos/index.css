@@ -1,0 +1,29 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    font-size: 25px;
+}
+.logo,.nome-loja{
+    margin: 30px;
+}
+.nome-loja{
+    margin-top: 50px;
+    font-size: 40px;
+}
+header div, footer{
+    display: flex;
+    justify-content:center;
+    background-color: #000;
+    color: #fff;
+}
+header img{
+    height: 80px;
+}
+main{
+    padding: 10px;
+    text-align: center;
+}
+footer div{
+    padding: 25px;
+}
+
