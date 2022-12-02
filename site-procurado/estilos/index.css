@@ -1,0 +1,43 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    font-size: 25px;
+}
+/* Configurações do cabeçalho*/
+.barra-sup .alinha-cabecalho, .barra-inf{
+    display: flex;
+    justify-content:center;
+    background-color: #000;
+    color: #fff;
+}
+.barra-sup img{
+    height: 80px;
+}
+.logo,.nome-loja{
+    margin: 25px;
+}
+.nome-loja{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+/* Configurações espaço de conteúdo*/
+main{
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+}
+main img{
+    border-radius: 3px;
+}
+main a{
+    color:#000;
+}
+/*Configurações do rodapé*/
+.barra-inf div{
+    padding: 40px;
+}
+.barra-inf a{
+    color: #0f9d58;
+    text-decoration: none;
+}

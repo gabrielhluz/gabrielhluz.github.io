@@ -1,0 +1,8 @@
+main div.alinha{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+main div#conteudo{
+    text-align: center;
+}
