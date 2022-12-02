@@ -18,6 +18,8 @@ header div, footer{
 }
 header img{
     height: 80px;
+    border: 1px solid #000;
+    border-radius: 3px;
 }
 main{
     padding: 10px;
