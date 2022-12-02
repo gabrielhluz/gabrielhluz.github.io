@@ -4,10 +4,11 @@ body{
     font-size: 25px;
 }
 .logo,.nome-loja{
-    margin: 30px;
+    margin: 40px;
 }
 .nome-loja{
-    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 45px;
 }
 header div, footer{
@@ -20,6 +21,7 @@ header img{
     height: 80px;
 }
 main{
+    margin: 40px;
     padding: 10px;
     text-align: center;
 }
@@ -27,6 +29,5 @@ main img{
     border-radius: 3px;
 }
 footer div{
-    padding: 25px;
+    padding: 40px;
 }
-
