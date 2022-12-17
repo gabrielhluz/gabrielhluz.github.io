@@ -1,5 +1,5 @@
 html{
-    background: #fff url("logos/crab2.png");
+    background: #fff url("logos/crab2.png") fixed;
     font-family: 'Bebas Neue', cursive;
 }
 body{
