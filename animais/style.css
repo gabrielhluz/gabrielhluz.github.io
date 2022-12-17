@@ -1,0 +1,72 @@
+html{
+    background: #fff url("logos/crab2.png");
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    margin: auto;
+    max-width: 900px;
+    border-style: none hidden;
+    border-width: 3px; 
+    border-color:#fff;
+    background:#EDF4ED;
+}
+.cabecalho,.rodape{
+    background-color: #3423A6;
+    color: #EDF4ED;
+}
+.cabecalho{
+    text-align: center;
+}
+.nome-site{
+    font-size: 40px;
+}
+.rodape{
+    text-align: center;
+    padding: 15px;
+}
+.conteudo{
+    text-align: center;
+    padding: 25px;
+}
+.alinha{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+.dashed{
+    border:#3d221e dashed;
+}
+.dotted{
+    border:#a3761c dotted;
+}
+.solid{
+    border:#f07926 solid;   
+}
+.groove{
+    border: groove #206f86;
+}
+.ridge{
+    border: ridge #e6b379;
+}
+.inset{
+    border:#7f533b inset;
+}
+.outset{
+    border: outset #44676b;
+}
+.none{
+    border:none;
+}
+.hidden{
+    border: hidden;
+}
+.urso{
+    border-color:#EDF4ED;
+}
+.imagem{
+    border-width: 10px;
+    border-radius:50%;
+}
+.imagem:hover{
+    border-color: #ffa500;
+}
