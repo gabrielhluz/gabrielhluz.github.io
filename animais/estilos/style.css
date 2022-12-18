@@ -1,0 +1,28 @@
+html{
+    background: #fff url("../logos/crab2.png");
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    margin: auto;
+    max-width: 900px;
+    border-style: none hidden;
+    border-width: 3px; 
+    border-color:#fff;
+    background:#EDF4ED;
+}
+.cabecalho,.rodape{
+    background-color: #3423A6;
+    color: #EDF4ED;
+}
+.cabecalho,.conteudo,.rodape{
+    text-align: center;
+}
+.nome-site{
+    font-size: 40px;
+}
+.rodape{
+    padding: 15px;
+}
+.conteudo{
+    padding: 25px;
+}

@@ -1,0 +1,11 @@
+.alinha{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+.imagem{
+    border: dashed 5px transparent;
+}
+.imagem:hover{
+    border-color: #ffa500;
+}
