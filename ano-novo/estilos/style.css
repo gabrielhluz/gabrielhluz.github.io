@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+body{
+    background:linear-gradient(to bottom, #FFD131, #FF9914) fixed;
+    height: 100%;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'M PLUS 1', sans-serif;
+}
+main{
+    background:#FCF7FF;
+    border: solid 1px #000;
+    border-radius: 5px 10px;
+    padding: 20px;
+    box-shadow: 3px 3px 10px #643d09;
+    text-align: center;
+
+}

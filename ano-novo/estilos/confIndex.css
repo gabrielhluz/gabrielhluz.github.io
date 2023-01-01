@@ -1,0 +1,27 @@
+main{
+    max-width: 400px;
+    height: 300px;
+    margin: 110px auto;
+}
+h1{
+    margin: 40px 0 50px 0;
+}
+#username, button{
+    margin: 20px auto;
+}
+#username{
+    width: 300px;
+    font-size: 15px;
+
+}
+button{
+    width: 306px;
+    background:#009FB7;
+    color:#fff;
+    border: 1px inset #009FB7;
+    border-radius: 2px;
+    font-size: 18px;
+}
+button:hover{
+    cursor: pointer;
+}
